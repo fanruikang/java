@@ -7,10 +7,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>SCMedia</artifactId>
+    <artifactId>Demo</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>SCMedia</name>
+    <name>Demo</name>
     <url>http://smartcity.cec-cesec.com.cn:18377/nexus/content/groups/public/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -155,7 +155,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-        <finalName>SCMedia</finalName>
+        <finalName>Demo</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
