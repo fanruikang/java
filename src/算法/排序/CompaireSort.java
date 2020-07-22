@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 import org.jetbrains.annotations.NotNull;
 
+import static 算法.排序.NoCompaireSort.CountingSort;
+import static 算法.排序.NoCompaireSort.LsdRadixSort;
+
 /**
  * 我们通常所说的排序算法往往指的是内部排序算法，即数据记录在内存中进行排序。
  * 　　排序算法大体可分为两种：
@@ -58,7 +61,7 @@ public class CompaireSort {
         }
     }
 
-    private static void printArray(int[] a) {
+     static void printArray(int[] a) {
         for (int k = 0; k < a.length; k++) {
             System.out.print(a[k] + "    ");
         }
@@ -194,7 +197,9 @@ public class CompaireSort {
 //        MergeSortRecursion(a, 0, a.length - 1);
 //        MergeSortIteration(a);
 //        HeapSort(a,a.length);
-        QuickSort(a, 0, a.length - 1);
+//        QuickSort(a, 0, a.length - 1);
+//        CountingSort(a,10);
+        LsdRadixSort(a,6);
         printArray(a);
     }
 
